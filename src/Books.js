@@ -13,7 +13,6 @@ function Books() {
         <button onClick={()=>dispatch(bookDecrement())}> Remove Book</button>
         <h3>Total Book: {bookCounter}</h3>
         <h3>Total Pet: {petCounter}</h3>
-
     </div>
   )
 }
