@@ -10,3 +10,16 @@ export const petDecrement=(number)=>{
         type: "PET_DECREASED",
     }
 }
+
+export const bookIncrement=(number)=>{
+    return {
+        type: "INCREASE_BOOK",
+        payload:number
+    }
+}
+
+export const bookDecrement=()=>{
+    return {
+        type: "DECREASE_BOOK",
+    }
+}

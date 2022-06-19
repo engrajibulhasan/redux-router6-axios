@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import App from './App';
+import Books from './Books';
 import './index.css';
 import reducers from './reducers';
 import reportWebVitals from './reportWebVitals';
@@ -16,6 +17,7 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>
       <App />
+      <Books/>
     </Provider>
     
   </React.StrictMode>

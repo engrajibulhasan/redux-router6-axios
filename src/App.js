@@ -9,7 +9,7 @@ function App() {
       <h1>React Redux SAGA basic</h1>
       <button onClick={()=>dispatch(petIncrement(1))}>Pet Increament Action</button>
       <button onClick={()=>dispatch(petDecrement())}>Pet Decrement Action</button>
-      <p>Pet counter: {petCounter}</p>
+      <h3>Total Pet: {petCounter}</h3>
     </div>
   );
 }
