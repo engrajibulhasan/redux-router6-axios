@@ -7,8 +7,7 @@ function Books() {
     const dispatch=useDispatch()
   return (
     <div>
-        <hr/>
-        <h1>Book Counter Using Redux</h1>
+        <h1>Book Counter Using Redux &amp; Router6 | Books</h1> <hr/>
         <button onClick={()=>dispatch(bookIncrement(1))}> Add Book</button>
         <button onClick={()=>dispatch(bookDecrement())}> Remove Book</button>
         <h3>Total Book: {bookCounter}</h3>

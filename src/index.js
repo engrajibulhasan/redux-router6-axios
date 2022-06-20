@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from "react-redux";
+import { BrowserRouter } from "react-router-dom";
 import { createStore } from "redux";
-import App from './App';
-import Books from './Books';
+import AllRoute from './AllRoute';
 import './index.css';
+import Nav from './Nav';
 import reducers from './reducers';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,8 +17,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
-      <Books/>
+      <BrowserRouter>
+      <Nav/>
+
+        <AllRoute/>
+      </BrowserRouter>
     </Provider>
     
   </React.StrictMode>
