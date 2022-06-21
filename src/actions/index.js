@@ -1,3 +1,4 @@
+
 export const petIncrement=(number)=>{
     return {
         type: "PET_INCREASED",
@@ -24,8 +25,4 @@ export const bookDecrement=()=>{
     }
 }
 
-export const getUsers=()=>{
-    return {
-        type:"GET_USERS_REQUESTED"
-    }
-}
+

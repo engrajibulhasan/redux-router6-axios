@@ -4,8 +4,9 @@ import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import { createStore } from "redux";
 import AllRoute from './AllRoute';
+import Nav from './components/Nav';
 import './index.css';
-import Nav from './Nav';
+
 import reducers from './reducers';
 import reportWebVitals from './reportWebVitals';
 

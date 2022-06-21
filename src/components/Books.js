@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { bookDecrement, bookIncrement } from "./actions";
+import { bookDecrement, bookIncrement } from "../actions";
 
 function Books() {
     const petCounter=useSelector((state)=>state.petCounter);

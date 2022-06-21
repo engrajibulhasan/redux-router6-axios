@@ -8,10 +8,9 @@ const users=(state=initialState,action)=>{
         case "GET_USERS_REQUESTED":
             return {...state,loading:true}
         case "GET_USERS_SUCCESS":
-            return {...state,loading:false,users:action.users}
+            return {...state,loading:false,users:action.payload}
         case "GET_USERS_FAILED":
-            return {...state,loading:false,error:action.message}
-    
+            return {...state,loading:false,error:action.payload}
         default:
             return state;
     }
