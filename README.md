@@ -14,7 +14,14 @@
 
 ## How to deploy in Github without .env
 - Install ```npm install gh-pages --save-dev```
-- make some changes in *package.json*
+- Add ```"homepage": "https://engrajibulhasan.github.io/repo-name/",``` on top of the package.json file
+- Add two line inside *scripts* in  package.json file
+ ```"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",```
+- ```git add .``` in command
+- ```git commit -m"write something" .``` in command
+- ```npm run deploy``` in command
+-  After that finally ```git push``` 
 
 
 ### redux is easy to use and react router is very simple
