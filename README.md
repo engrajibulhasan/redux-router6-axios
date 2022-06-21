@@ -12,5 +12,10 @@
 - Call the variable from any files using ```process.env.REACT_APP_JSON_PLACEHOLDER_URL``` 
 *It's very simple*
 
+## How to deploy in Github without .env
+- Install ```npm install gh-pages --save-dev```
+- make some changes in *package.json*
+
+
 ### redux is easy to use and react router is very simple
 
