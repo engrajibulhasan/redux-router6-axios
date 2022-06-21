@@ -1,4 +1,4 @@
-# Redux with Router6 and AXIOS winth Environment (.env)
+# Redux with Router6 and AXIOS with Environment (.env)
 
 - Plain Redux
 - React Router 6
