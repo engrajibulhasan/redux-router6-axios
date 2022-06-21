@@ -1,2 +1,0 @@
-export const usersAPIUrl=process.env.REACT_APP_JSON_PLACEHOLDER_URL+process.env.REACT_APP_USERS
-export const postsAPIUrl=process.env.REACT_APP_JSON_PLACEHOLDER_URL+process.env.REACT_APP_POSTS
