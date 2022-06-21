@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { postsAPIUrl } from "../config";
 
 function PostDetail() {
     const [postDetail,setPostDetail]=useState({
@@ -12,7 +13,7 @@ function PostDetail() {
     let {id}=useParams();
     const postRequest=async(id)=>{
         try{
-            const response=await axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
+            const response=await axios.get(`${postsAPIUrl}/${id}`)
             console.log(response,"The response");
             setPostDetail(response.data)
 

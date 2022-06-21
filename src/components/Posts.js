@@ -6,7 +6,7 @@ import { getPosts } from "../requests/getPosts";
 const Posts = () => {
     const posts=useSelector(state=>state.posts)
     const dispatch=useDispatch()
-    
+   
     useEffect(()=>{
         getPosts(dispatch);
     },[])
