@@ -8,7 +8,6 @@ import Users from './components/Users'
 function AllRoute() {
   return (
     <Routes>
-      
       <Route exact path="/books" element={<Books />} />
       <Route exact path="/users" element={<Users />} />
       <Route exact path="/posts" element={<Posts />} />
